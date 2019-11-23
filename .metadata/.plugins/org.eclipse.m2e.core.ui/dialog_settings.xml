@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\cmehta\eclipse-workspace\safeGaurdProject"/>
+			<item value="C:\Users\cmehta\eclipse-workspace\TestProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="JavaProgram.javaConcept"/>
+			<item value="JavaProgram.JavaInterviewQuestions"/>
+			<item value="TestNGWithAbstractConcepts.TestNGWithAbstractConcepts"/>
+			<item value="PhptravelBDDProject.PhptravelBDDProject"/>
+			<item value="SikuliProject.SikuliProject"/>
+			<item value="Zerodha_BDD_POM.ZerodhaProject"/>
+			<item value="safeGaurdProject.safeGaurdProject"/>
+			<item value="InvestmentSafeGaurd.IVSG_BDD_Cucumber"/>
+			<item value="IVSG_Cucumber_Project.IVSG_BDD_Cucumber"/>
+			<item value="IVSG_Cucumber_Project.IVSG"/>
+			<item value="SeleniumPrograms.SeleniumPrograms"/>
+			<item value="TestProject.TestProject"/>
+			<item value="Cucumber_POM_Project.Cucumber_POM_Project"/>
+			<item value="com.FreeCRMBDDMavenProject.com.FreeCRMBDDMavenProject"/>
+			<item value="freeCRMBDDFramework.freeCRMFramework"/>
+		</list>
+		<list key="groupId">
+			<item value="JavaProgram"/>
+			<item value="TestNGWithAbstractConcepts"/>
+			<item value="PhptravelBDDProject"/>
+			<item value="SikuliProject"/>
+			<item value="Zerodha-BDD-POM"/>
+			<item value="safeGaurdProject"/>
+			<item value="InvestmentSafeGaurd"/>
+			<item value="IVSG-Cucumber-Project"/>
+			<item value="SeleniumPrograms"/>
+			<item value="TestProject"/>
+			<item value="Cucumber-POM-Project"/>
+			<item value="com.FreeCRMBDDMavenProject"/>
+			<item value="freeCRMBDDFramework"/>
+			<item value="com.freeCRMBDD.project"/>
+			<item value="com.freeCRM.project"/>
+		</list>
+		<list key="artifactId">
+			<item value="javaConcept"/>
+			<item value="JavaInterviewQuestions"/>
+			<item value="TestNGWithAbstractConcepts"/>
+			<item value="PhptravelBDDProject"/>
+			<item value="SikuliProject"/>
+			<item value="ZerodhaProject"/>
+			<item value="safeGaurdProject"/>
+			<item value="IVSG_BDD_Cucumber"/>
+			<item value="IVSG-BDD-Cucumber"/>
+			<item value="IVSG"/>
+			<item value="SeleniumPrograms"/>
+			<item value="TestProject"/>
+			<item value="Cucumber-POM-Project"/>
+			<item value="com.FreeCRMBDDMavenProject"/>
+			<item value="freeCRMFramework"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

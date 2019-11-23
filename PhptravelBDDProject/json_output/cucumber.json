@@ -1,0 +1,348 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5836987832,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PHPStepDefinition.SetUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "PHP Landing Page test",
+        "description": "",
+        "id": "php-login-page-test;php-landing-page-test",
+        "after": [
+          {
+            "result": {
+              "duration": 900376495,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PHPStepDefinition.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 149962270,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on PHP login page",
+            "match": {
+              "location": "PHPStepDefinition.user_is_on_PHP_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 409790637,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user verify the demo option",
+            "match": {
+              "location": "PHPStepDefinition.user_verify_the_demo_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 67325409,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user verify the pricing option",
+            "match": {
+              "location": "PHPStepDefinition.user_verify_the_pricing_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1794674282,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verify the features option",
+            "match": {
+              "location": "PHPStepDefinition.user_verify_the_features_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 348890219,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user verify the product option",
+            "match": {
+              "location": "PHPStepDefinition.user_verify_the_product_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 165358509,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verify the hosting option",
+            "match": {
+              "location": "PHPStepDefinition.user_verify_the_hosting_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 160613619,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user verify the services option",
+            "match": {
+              "location": "PHPStepDefinition.user_verify_the_services_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 147120602,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user verify the company option",
+            "match": {
+              "location": "PHPStepDefinition.user_verify_the_company_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60423831,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user verify the login button",
+            "match": {
+              "location": "PHPStepDefinition.user_verify_the_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4702873843,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PHPStepDefinition.SetUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "PHP Main Features page  test",
+        "description": "",
+        "id": "php-login-page-test;php-main-features-page--test",
+        "after": [
+          {
+            "result": {
+              "duration": 900986954,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PHPStepDefinition.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1686031334,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user on main feature page",
+            "match": {
+              "location": "PHPStepDefinition.user_on_main_feature_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 533304595,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user sees main features header",
+            "match": {
+              "location": "PHPStepDefinition.user_sees_main_features_header()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2170183276,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user sees the vacation packages image",
+            "match": {
+              "location": "PHPStepDefinition.user_sees_the_vacation_packages_image()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27667,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user sees the demo link",
+            "match": {
+              "location": "PHPStepDefinition.user_sees_the_demo_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29452,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user sees application features options",
+            "match": {
+              "location": "PHPStepDefinition.user_sees_application_features_options()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27221,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user sees submit requirement link",
+            "match": {
+              "location": "PHPStepDefinition.user_sees_submit_requirement_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29006,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user sees subscribe button",
+            "match": {
+              "location": "PHPStepDefinition.user_sees_subscribe_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5418585618,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PHPStepDefinition.SetUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "PHP Hotels Module page test",
+        "description": "",
+        "id": "php-login-page-test;php-hotels-module-page-test",
+        "after": [
+          {
+            "result": {
+              "duration": 966465367,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PHPStepDefinition.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2415865774,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user on hotels module page",
+            "match": {
+              "location": "PHPStepDefinition.user_on_hotels_module_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26328,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user sees hotels module header",
+            "match": {
+              "location": "PHPStepDefinition.user_sees_hotels_module_header()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33914,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user sees the CALENDAR AVAILABILITY",
+            "match": {
+              "location": "PHPStepDefinition.user_sees_the_CALENDAR_AVAILABILITY()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29006,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user sees the HOTEL FACILITIES",
+            "match": {
+              "location": "PHPStepDefinition.user_sees_the_HOTEL_FACILITIES()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "PHP login page test",
+    "description": "",
+    "id": "php-login-page-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/cmehta/eclipse-workspace/PhptravelBDDProject/src/main/java/com/qa/features/PHPLoginPage.feature"
+  }
+]

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="28.836023">
+<testcase classname="PHP login page test" name="PHP Landing Page test" time="10.041524">
+<system-out><![CDATA[Given user is on PHP login page.............................................passed
+Then user verify the demo option............................................passed
+Then user verify the pricing option.........................................passed
+Then user verify the features option........................................passed
+Then user verify the product option.........................................passed
+Then user verify the hosting option.........................................passed
+Then user verify the services option........................................passed
+Then user verify the company option.........................................passed
+Then user verify the login button...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="PHP login page test" name="PHP Main Features page  test" time="9.993493">
+<system-out><![CDATA[Given user on main feature page.............................................passed
+Then user sees main features header.........................................passed
+And user sees the vacation packages image...................................passed
+And user sees the demo link.................................................passed
+And user sees application features options..................................passed
+And user sees submit requirement link.......................................passed
+And user sees subscribe button..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="PHP login page test" name="PHP Hotels Module page test" time="8.801006">
+<system-out><![CDATA[Given user on hotels module page............................................passed
+Then user sees hotels module header.........................................passed
+And user sees the CALENDAR AVAILABILITY.....................................passed
+And user sees the HOTEL FACILITIES..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

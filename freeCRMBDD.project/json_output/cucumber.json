@@ -1,0 +1,736 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Free CRM Login Page Test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-login-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is login page test",
+            "match": {
+              "location": "StepDefinitionTagging.user_is_login_page_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user sees username input field",
+            "match": {
+              "location": "StepDefinitionTagging.user_sees_username_input_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user sees password input field",
+            "match": {
+              "location": "StepDefinitionTagging.user_sees_password_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user sees login button",
+            "match": {
+              "location": "StepDefinitionTagging.user_sees_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user close the login page",
+            "match": {
+              "location": "StepDefinitionTagging.user_close_the_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@SanityTest"
+          },
+          {
+            "line": 4,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Free CRM SignUp page test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-signup-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user is login page test",
+            "match": {
+              "location": "StepDefinitionTagging.user_is_login_page_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user sees SignUp link",
+            "match": {
+              "location": "StepDefinitionTagging.user_sees_SignUp_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user close the login page",
+            "match": {
+              "location": "StepDefinitionTagging.user_close_the_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Free CRM Classic CRM link test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-classic-crm-link-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "this is Classic CRM test",
+            "match": {
+              "location": "StepDefinitionTagging.this_is_Classic_CRM_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@SanityTest"
+          },
+          {
+            "line": 19,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Free CRM Forgot Password link test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-forgot-password-link-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "this is forgot password  test",
+            "match": {
+              "location": "StepDefinitionTagging.this_is_forgot_password_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@SanityTest"
+          },
+          {
+            "line": 23,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Free CRM Home page title test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-home-page-title-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "this is home page title test",
+            "match": {
+              "location": "StepDefinitionTagging.this_is_home_page_title_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@SanityTest"
+          },
+          {
+            "line": 27,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Free CRM Home page left pan options test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-home-page-left-pan-options-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "this is home page left pan test",
+            "match": {
+              "location": "StepDefinitionTagging.this_is_home_page_left_pan_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@SanityTest"
+          },
+          {
+            "line": 31,
+            "name": "@RegressionTest"
+          },
+          {
+            "line": 31,
+            "name": "@End2EndTest"
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Free CRM Home Page page username label test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-home-page-page-username-label-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "this is username label test",
+            "match": {
+              "location": "StepDefinitionTagging.this_is_username_label_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 35,
+            "name": "@SanityTest"
+          },
+          {
+            "line": 35,
+            "name": "@RegressionTest"
+          },
+          {
+            "line": 35,
+            "name": "@End2EndTest"
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "Free CRM Home page search placeholder test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-home-page-search-placeholder-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "this is search placeholder test",
+            "match": {
+              "location": "StepDefinitionTagging.this_is_search_placeholder_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 39,
+            "name": "@SanityTest"
+          },
+          {
+            "line": 39,
+            "name": "@RegressionTest"
+          },
+          {
+            "line": 39,
+            "name": "@End2EndTest"
+          }
+        ]
+      },
+      {
+        "line": 44,
+        "name": "Free CRM Home page delete button test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-home-page-delete-button-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "this is delete button test",
+            "match": {
+              "location": "StepDefinitionTagging.this_is_delete_button_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@SanityTest"
+          },
+          {
+            "line": 43,
+            "name": "@RegressionTest"
+          },
+          {
+            "line": 43,
+            "name": "@End2EndTest"
+          }
+        ]
+      },
+      {
+        "line": 48,
+        "name": "Free CRM Home page setting button test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-home-page-setting-button-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "this is setting test",
+            "match": {
+              "location": "StepDefinitionTagging.this_is_setting_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 47,
+            "name": "@RegressionTest"
+          },
+          {
+            "line": 47,
+            "name": "@End2EndTest"
+          }
+        ]
+      },
+      {
+        "line": 52,
+        "name": "Free CRM Home link test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-home-link-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "this is home link test",
+            "match": {
+              "location": "StepDefinitionTagging.this_is_home_link_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 51,
+            "name": "@RegressionTest"
+          },
+          {
+            "line": 51,
+            "name": "@End2EndTest"
+          }
+        ]
+      },
+      {
+        "line": 56,
+        "name": "Free CRM Calendar link test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-calendar-link-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "this is Calendar test",
+            "match": {
+              "location": "StepDefinitionTagging.this_is_Calendar_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 55,
+            "name": "@RegressionTest"
+          },
+          {
+            "line": 55,
+            "name": "@End2EndTest"
+          }
+        ]
+      },
+      {
+        "line": 60,
+        "name": "Free CRM Contacts link test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-contacts-link-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "this is contacts test",
+            "match": {
+              "location": "StepDefinitionTagging.this_is_contacts_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 59,
+            "name": "@RegressionTest"
+          },
+          {
+            "line": 59,
+            "name": "@End2EndTest"
+          }
+        ]
+      },
+      {
+        "line": 64,
+        "name": "Free CRM Companies link test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-companies-link-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 65,
+            "name": "this is Companies test",
+            "match": {
+              "location": "StepDefinitionTagging.this_is_Companies_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 63,
+            "name": "@End2EndTest"
+          }
+        ]
+      },
+      {
+        "line": 68,
+        "name": "Free CRM Deals link test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-deals-link-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 69,
+            "name": "this is Deals test",
+            "match": {
+              "location": "StepDefinitionTagging.this_is_Deals_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 67,
+            "name": "@End2EndTest"
+          }
+        ]
+      },
+      {
+        "line": 72,
+        "name": "Free CRM Tasks link test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-tasks-link-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 73,
+            "name": "this is Tasks test",
+            "match": {
+              "location": "StepDefinitionTagging.this_is_Tasks_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 71,
+            "name": "@End2EndTest"
+          }
+        ]
+      },
+      {
+        "line": 76,
+        "name": "Free CRM Cases link test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-cases-link-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 77,
+            "name": "this is Cases test",
+            "match": {
+              "location": "StepDefinitionTagging.this_is_Cases_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 75,
+            "name": "@End2EndTest"
+          }
+        ]
+      },
+      {
+        "line": 80,
+        "name": "Free CRM Calls link test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-calls-link-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 81,
+            "name": "this is Calls test",
+            "match": {
+              "location": "StepDefinitionTagging.this_is_Calls_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 79,
+            "name": "@SanityTest"
+          }
+        ]
+      },
+      {
+        "line": 84,
+        "name": "Free CRM Documents link test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-documents-link-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 85,
+            "name": "this is Documents test",
+            "match": {
+              "location": "StepDefinitionTagging.this_is_Documents_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 83,
+            "name": "@SanityTest"
+          }
+        ]
+      },
+      {
+        "line": 88,
+        "name": "Free CRM Email link test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-email-link-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 89,
+            "name": "this is Email test",
+            "match": {
+              "location": "StepDefinitionTagging.this_is_Email_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 87,
+            "name": "@SanityTest"
+          }
+        ]
+      },
+      {
+        "line": 92,
+        "name": "Free CRM Campaigns link test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-campaigns-link-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 93,
+            "name": "this is Campaign test",
+            "match": {
+              "location": "StepDefinitionTagging.this_is_Campaign_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 91,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 95,
+        "name": "Free CRM close browser test",
+        "description": "",
+        "id": "free-crm-login-pgae-feature;free-crm-close-browser-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 96,
+            "name": "this is close browser test",
+            "match": {
+              "location": "StepDefinitionTagging.this_is_close_browser_test()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login Pgae Feature",
+    "description": "",
+    "id": "free-crm-login-pgae-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/cmehta/eclipse-workspace/freeCRMBDD.project/src/main/java/features/tagging.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "validate Zerodha Page test",
+        "description": "",
+        "id": "zerodha-login-test;validate-zerodha-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14035859357,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user opens zerodha browser",
+            "match": {
+              "location": "ZerodhaStepDefinition.user_opens_zerodha_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 619517136,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on zerodha login page",
+            "match": {
+              "location": "ZerodhaStepDefinition.user_is_on_zerodha_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30129911803,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user login into zerodha application",
+            "match": {
+              "location": "ZerodhaStepDefinition.user_login_into_zerodha_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user validate zerodha homepage title",
+            "match": {
+              "location": "ZerodhaStepDefinition.user_validate_zerodha_homepage_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1491787837,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user close the zerodha browser",
+            "match": {
+              "location": "ZerodhaStepDefinition.user_close_the_zerodha_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Zerodha login test",
+    "description": "",
+    "id": "zerodha-login-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/cmehta/eclipse-workspace/ZerodhaProject/src/main/java/com/qa/features/ZerodhaLogin.feature"
+  }
+]

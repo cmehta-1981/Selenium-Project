@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="46.277123">
+<testcase classname="Zerodha login test" name="validate Zerodha Page test" time="46.277123">
+<system-out><![CDATA[Given user opens zerodha browser............................................passed
+Then user is on zerodha login page..........................................passed
+Then user login into zerodha application....................................passed
+Then user validate zerodha homepage title...................................passed
+Then user close the zerodha browser.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

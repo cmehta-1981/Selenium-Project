@@ -1,0 +1,742 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "validate Free CRM ForgotPassword Page test",
+        "description": "",
+        "id": "free-crm-fogotpasswordpage-test;validate-free-crm-forgotpassword-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user opens browser",
+            "match": {
+              "location": "FreeCRMStep.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user is on login page",
+            "match": {
+              "location": "FreeCRMStep.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user cliks on Forgot your password? link",
+            "match": {
+              "location": "FreeCRMStep.user_cliks_on_Forgot_your_password_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user reset password",
+            "match": {
+              "location": "FreeCRMStep.user_reset_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user sees the reset password success message",
+            "match": {
+              "location": "FreeCRMStep.user_sees_the_reset_password_success_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user close the browser",
+            "match": {
+              "location": "FreeCRMStep.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM FogotPasswordPage test",
+    "description": "",
+    "id": "free-crm-fogotpasswordpage-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/cmehta/eclipse-workspace/Cucumber-POM-Project/src/main/java/com/qa/feature/classicCRMPage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "validate Free CRM ForgotPassword Page test",
+        "description": "",
+        "id": "free-crm-fogotpasswordpage-test;validate-free-crm-forgotpassword-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user on calendar page",
+            "match": {
+              "location": "FreeCRMStep.user_on_calendar_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user veeify the create event page",
+            "match": {
+              "location": "FreeCRMStep.user_veeify_the_create_event_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user fill the event form",
+            "match": {
+              "location": "FreeCRMStep.user_fill_the_event_form()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user save the event form",
+            "match": {
+              "location": "FreeCRMStep.user_save_the_event_form()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user close the browser",
+            "match": {
+              "location": "FreeCRMStep.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM FogotPasswordPage test",
+    "description": "",
+    "id": "free-crm-fogotpasswordpage-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/cmehta/eclipse-workspace/Cucumber-POM-Project/src/main/java/com/qa/feature/createNewEventPage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "validate Free CRM ForgotPassword Page test",
+        "description": "",
+        "id": "free-crm-fogotpasswordpage-test;validate-free-crm-forgotpassword-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user opens browser",
+            "match": {
+              "location": "FreeCRMStep.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user is on login page",
+            "match": {
+              "location": "FreeCRMStep.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user cliks on Classic CRM link",
+            "match": {
+              "location": "FreeCRMStep.user_cliks_on_Classic_CRM_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user navigates to Classic CRM page",
+            "match": {
+              "location": "FreeCRMStep.user_navigates_to_Classic_CRM_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user close the browser",
+            "match": {
+              "location": "FreeCRMStep.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM FogotPasswordPage test",
+    "description": "",
+    "id": "free-crm-fogotpasswordpage-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/cmehta/eclipse-workspace/Cucumber-POM-Project/src/main/java/com/qa/feature/forgotPasswordPage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "validate Free CRM ForgotPassword Page test",
+        "description": "",
+        "id": "free-crm-fogotpasswordpage-test;validate-free-crm-forgotpassword-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user opens browser",
+            "match": {
+              "location": "FreeCRMStep.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user is on login page",
+            "match": {
+              "location": "FreeCRMStep.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user sees username label",
+            "match": {
+              "location": "FreeCRMStep.user_sees_username_label()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user verify Contacts activity stream list",
+            "match": {
+              "location": "FreeCRMStep.user_verify_Contacts_activity_stream_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user sees Home link",
+            "match": {
+              "location": "FreeCRMStep.user_sees_Home_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user sees Calendar link",
+            "match": {
+              "location": "FreeCRMStep.user_sees_Calendar_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user sees Contacts link",
+            "match": {
+              "location": "FreeCRMStep.user_sees_Contacts_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user sees Companies link",
+            "match": {
+              "location": "FreeCRMStep.user_sees_Companies_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user sees Deals link",
+            "match": {
+              "location": "FreeCRMStep.user_sees_Deals_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user sees Tasks link",
+            "match": {
+              "location": "FreeCRMStep.user_sees_Tasks_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user sees Cases link",
+            "match": {
+              "location": "FreeCRMStep.user_sees_Cases_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user sees Calls link",
+            "match": {
+              "location": "FreeCRMStep.user_sees_Calls_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user sees Documents link",
+            "match": {
+              "location": "FreeCRMStep.user_sees_Documents_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user sees Email link",
+            "match": {
+              "location": "FreeCRMStep.user_sees_Email_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user sees Campaigns link",
+            "match": {
+              "location": "FreeCRMStep.user_sees_Campaigns_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user close the browser",
+            "match": {
+              "location": "FreeCRMStep.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM FogotPasswordPage test",
+    "description": "",
+    "id": "free-crm-fogotpasswordpage-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/cmehta/eclipse-workspace/Cucumber-POM-Project/src/main/java/com/qa/feature/homePage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "validate Free CRM Home Page test",
+        "description": "",
+        "id": "free-crm-loginpage-test;validate-free-crm-home-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user opens browser",
+            "match": {
+              "location": "FreeCRMStep.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "FreeCRMStep.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user login into application",
+            "match": {
+              "location": "FreeCRMStep.user_login_into_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user validate homepage title",
+            "match": {
+              "location": "FreeCRMStep.user_validate_homepage_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user close the browser",
+            "match": {
+              "location": "FreeCRMStep.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "validate Free CRM links on Home Page",
+        "description": "",
+        "id": "free-crm-loginpage-test;validate-free-crm-links-on-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user on login page",
+            "match": {
+              "location": "FreeCRMStep.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user sees Forgot your password? link",
+            "match": {
+              "location": "FreeCRMStep.user_sees_Forgot_your_password_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user sees Classic CRM link",
+            "match": {
+              "location": "FreeCRMStep.user_sees_Classic_CRM_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user sees Sign Up link",
+            "match": {
+              "location": "FreeCRMStep.user_sees_Sign_Up_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user close the browser",
+            "match": {
+              "location": "FreeCRMStep.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM LoginPage test",
+    "description": "",
+    "id": "free-crm-loginpage-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/cmehta/eclipse-workspace/Cucumber-POM-Project/src/main/java/com/qa/feature/loginPage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "validate Free CRM ForgotPassword Page test",
+        "description": "",
+        "id": "free-crm-fogotpasswordpage-test;validate-free-crm-forgotpassword-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user opens browser",
+            "match": {
+              "location": "FreeCRMStep.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user is on login page",
+            "match": {
+              "location": "FreeCRMStep.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user sees SignUp title",
+            "match": {
+              "location": "FreeCRMStep.user_sees_SignUp_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user SignUp Free CRM application",
+            "match": {
+              "location": "FreeCRMStep.user_SignUp_Free_CRM_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user sees the SignUp success message",
+            "match": {
+              "location": "FreeCRMStep.user_sees_the_SignUp_success_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user close the browser",
+            "match": {
+              "location": "FreeCRMStep.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 14,
+            "value": "#Feature: Free CRM FogotPasswordPage test"
+          }
+        ],
+        "line": 16,
+        "name": "validate Free CRM ForgotPassword Page test",
+        "description": "",
+        "id": "free-crm-fogotpasswordpage-test;validate-free-crm-forgotpassword-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user opens browser",
+            "match": {
+              "location": "FreeCRMStep.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user is on login page",
+            "match": {
+              "location": "FreeCRMStep.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user sees SignUp title",
+            "match": {
+              "location": "FreeCRMStep.user_sees_SignUp_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user SignUp Free CRM application",
+            "match": {
+              "location": "FreeCRMStep.user_SignUp_Free_CRM_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user sees the SignUp success message",
+            "match": {
+              "location": "FreeCRMStep.user_sees_the_SignUp_success_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user close the browser",
+            "match": {
+              "location": "FreeCRMStep.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM FogotPasswordPage test",
+    "description": "",
+    "id": "free-crm-fogotpasswordpage-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/cmehta/eclipse-workspace/Cucumber-POM-Project/src/main/java/com/qa/feature/signUpPage.feature"
+  }
+]

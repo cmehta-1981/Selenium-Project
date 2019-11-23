@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="22" time="0">
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM Login Page Test" time="0">
+<system-out><![CDATA[Given user is login page test...............................................skipped
+Then user sees username input field.........................................skipped
+And user sees password input field..........................................skipped
+And user sees login button..................................................skipped
+Then user close the login page..............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM SignUp page test" time="0">
+<system-out><![CDATA[Given user is login page test...............................................skipped
+Then user sees SignUp link..................................................skipped
+Then user close the login page..............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM Classic CRM link test" time="0">
+<system-out><![CDATA[Given this is Classic CRM test..............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM Forgot Password link test" time="0">
+<system-out><![CDATA[Given this is forgot password  test.........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM Home page title test" time="0">
+<system-out><![CDATA[Given this is home page title test..........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM Home page left pan options test" time="0">
+<system-out><![CDATA[Given this is home page left pan test.......................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM Home Page page username label test" time="0">
+<system-out><![CDATA[Given this is username label test...........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM Home page search placeholder test" time="0">
+<system-out><![CDATA[Given this is search placeholder test.......................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM Home page delete button test" time="0">
+<system-out><![CDATA[Given this is delete button test............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM Home page setting button test" time="0">
+<system-out><![CDATA[Given this is setting test..................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM Home link test" time="0">
+<system-out><![CDATA[Given this is home link test................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM Calendar link test" time="0">
+<system-out><![CDATA[Given this is Calendar test.................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM Contacts link test" time="0">
+<system-out><![CDATA[Given this is contacts test.................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM Companies link test" time="0">
+<system-out><![CDATA[Given this is Companies test................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM Deals link test" time="0">
+<system-out><![CDATA[Given this is Deals test....................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM Tasks link test" time="0">
+<system-out><![CDATA[Given this is Tasks test....................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM Cases link test" time="0">
+<system-out><![CDATA[Given this is Cases test....................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM Calls link test" time="0">
+<system-out><![CDATA[Given this is Calls test....................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM Documents link test" time="0">
+<system-out><![CDATA[Given this is Documents test................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM Email link test" time="0">
+<system-out><![CDATA[Given this is Email test....................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM Campaigns link test" time="0">
+<system-out><![CDATA[Given this is Campaign test.................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Login Pgae Feature" name="Free CRM close browser test" time="0">
+<system-out><![CDATA[Given this is close browser test............................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

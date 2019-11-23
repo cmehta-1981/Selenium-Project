@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="free CRM test report" verbose="1" >
+  <test name="freeCRM suite 1" >
+    <classes>
+    
+      <class name="com.CRM.qa.testCases.LandingPageTest"/>
+      <class name="com.CRM.qa.testCases.LoginPageTest"/>
+      <class name="com.CRM.qa.testCases.HomePageTest"/>
+      
+      
+    </classes>
+ </test>
+</suite>

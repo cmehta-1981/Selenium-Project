@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="102485" started-at="2019-11-14T18:00:29Z" finished-at="2019-11-14T18:02:11Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:myRunner.TestRunner@a67c67e]" name="feature" class="myRunner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="safeGaurdProject" duration-ms="102485" started-at="2019-11-14T18:00:29Z" finished-at="2019-11-14T18:02:11Z">
+      <class name="myRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:myRunner.TestRunner@a67c67e]" name="setUpClass" is-config="true" duration-ms="278" started-at="2019-11-14T18:00:29Z" finished-at="2019-11-14T18:00:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:myRunner.TestRunner@a67c67e]" name="feature" duration-ms="15090" started-at="2019-11-14T18:00:29Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-14T18:00:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvestmentSafeGaurd HomePage test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:myRunner.TestRunner@a67c67e]" name="feature" duration-ms="19368" started-at="2019-11-14T18:00:44Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-14T18:01:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvestmentSafeGaurd HomePage test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:myRunner.TestRunner@a67c67e]" name="feature" duration-ms="13843" started-at="2019-11-14T18:01:04Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-14T18:01:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvestmentSafeGaurd HomePage test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:myRunner.TestRunner@a67c67e]" name="feature" duration-ms="10417" started-at="2019-11-14T18:01:17Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-14T18:01:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvestmentSafeGaurd HomePage test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:myRunner.TestRunner@a67c67e]" name="feature" duration-ms="16991" started-at="2019-11-14T18:01:28Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-14T18:01:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvestmentSafeGaurd HomePage test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:myRunner.TestRunner@a67c67e]" name="feature" duration-ms="11006" started-at="2019-11-14T18:01:45Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-14T18:01:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvestmentSafeGaurd HomePage test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:myRunner.TestRunner@a67c67e]" name="feature" duration-ms="15237" started-at="2019-11-14T18:01:56Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-14T18:02:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvestmentSafeGaurd HomePage test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:myRunner.TestRunner@a67c67e]" name="tearDownClass" is-config="true" duration-ms="66" started-at="2019-11-14T18:02:11Z" finished-at="2019-11-14T18:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- myRunner.TestRunner -->
+    </test> <!-- safeGaurdProject -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>

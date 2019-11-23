@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="7.540853">
+<testcase classname="FreeCRM test application" name="FreeCRM login page scenario" time="3.539371">
+<failure message="org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76&#10;Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'&#10;System info: host: 'LIN55000210', ip: '172.20.10.5', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x01417C53+1473619]&#10;&#9;Ordinal0 [0x0139AD71+961905]&#10;&#9;Ordinal0 [0x013242B3+475827]&#10;&#9;Ordinal0 [0x012BF365+62309]&#10;&#9;Ordinal0 [0x012BBC77+48247]&#10;&#9;Ordinal0 [0x012D9149+168265]&#10;&#9;Ordinal0 [0x012D8D1D+167197]&#10;&#9;Ordinal0 [0x012D742B+160811]&#10;&#9;Ordinal0 [0x012C0AE6+68326]&#10;&#9;Ordinal0 [0x012C1BF0+72688]&#10;&#9;Ordinal0 [0x012C1B89+72585]&#10;&#9;Ordinal0 [0x013B4B37+1067831]&#10;&#9;GetHandleVerifier [0x014B6845+506677]&#10;&#9;GetHandleVerifier [0x014B65E0+506064]&#10;&#9;GetHandleVerifier [0x014BD188+533624]&#10;&#9;GetHandleVerifier [0x014B701A+508682]&#10;&#9;Ordinal0 [0x013AC226+1032742]&#10;&#9;Ordinal0 [0x013AC09F+1032351]&#10;&#9;Ordinal0 [0x013B6A4B+1075787]&#10;&#9;Ordinal0 [0x013B6BB3+1076147]&#10;&#9;Ordinal0 [0x013B5B65+1071973]&#10;&#9;BaseThreadInitThunk [0x760F343D+18]&#10;&#9;RtlInitializeExceptionChain [0x778A9802+99]&#10;&#9;RtlInitializeExceptionChain [0x778A97D5+54]&#10;&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#13;&#10;&#9;at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)&#13;&#10;&#9;at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;&#10;&#9;at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.findFirst(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;&#10;&#9;at stepDefinition.StepDefinition.user_on_FreeCRM_login_page(StepDefinition.java:20)&#13;&#10;&#9;at ✽.When user on FreeCRM login page(C:/Users/cmehta/eclipse-workspace/freeCRMFramework/src/main/java/features/login.feature:6)&#13;&#10;"><![CDATA[When user on FreeCRM login page.............................................failed
+Then user verify the FreeCRM title..........................................skipped
+Then user sees username and password input fields...........................skipped
+And user sees login button..................................................skipped
+And user sees Forgot your password? link....................................skipped
+And user sees Classic CRM link..............................................skipped
+And user sees Sign Up link..................................................skipped
+Then user close the browser.................................................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'LIN55000210', ip: '172.20.10.5', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x01417C53+1473619]
+	Ordinal0 [0x0139AD71+961905]
+	Ordinal0 [0x013242B3+475827]
+	Ordinal0 [0x012BF365+62309]
+	Ordinal0 [0x012BBC77+48247]
+	Ordinal0 [0x012D9149+168265]
+	Ordinal0 [0x012D8D1D+167197]
+	Ordinal0 [0x012D742B+160811]
+	Ordinal0 [0x012C0AE6+68326]
+	Ordinal0 [0x012C1BF0+72688]
+	Ordinal0 [0x012C1B89+72585]
+	Ordinal0 [0x013B4B37+1067831]
+	GetHandleVerifier [0x014B6845+506677]
+	GetHandleVerifier [0x014B65E0+506064]
+	GetHandleVerifier [0x014BD188+533624]
+	GetHandleVerifier [0x014B701A+508682]
+	Ordinal0 [0x013AC226+1032742]
+	Ordinal0 [0x013AC09F+1032351]
+	Ordinal0 [0x013B6A4B+1075787]
+	Ordinal0 [0x013B6BB3+1076147]
+	Ordinal0 [0x013B5B65+1071973]
+	BaseThreadInitThunk [0x760F343D+18]
+	RtlInitializeExceptionChain [0x778A9802+99]
+	RtlInitializeExceptionChain [0x778A97D5+54]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at stepDefinition.StepDefinition.user_on_FreeCRM_login_page(StepDefinition.java:20)
+	at ✽.When user on FreeCRM login page(C:/Users/cmehta/eclipse-workspace/freeCRMFramework/src/main/java/features/login.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="FreeCRM test application" name="FreeCRM Forgot Password page scenario" time="1.966622">
+<failure message="org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76&#10;Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'&#10;System info: host: 'LIN55000210', ip: '172.20.10.5', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x01417C53+1473619]&#10;&#9;Ordinal0 [0x0139AD71+961905]&#10;&#9;Ordinal0 [0x013242B3+475827]&#10;&#9;Ordinal0 [0x012BF365+62309]&#10;&#9;Ordinal0 [0x012BBC77+48247]&#10;&#9;Ordinal0 [0x012D9149+168265]&#10;&#9;Ordinal0 [0x012D8D1D+167197]&#10;&#9;Ordinal0 [0x012D742B+160811]&#10;&#9;Ordinal0 [0x012C0AE6+68326]&#10;&#9;Ordinal0 [0x012C1BF0+72688]&#10;&#9;Ordinal0 [0x012C1B89+72585]&#10;&#9;Ordinal0 [0x013B4B37+1067831]&#10;&#9;GetHandleVerifier [0x014B6845+506677]&#10;&#9;GetHandleVerifier [0x014B65E0+506064]&#10;&#9;GetHandleVerifier [0x014BD188+533624]&#10;&#9;GetHandleVerifier [0x014B701A+508682]&#10;&#9;Ordinal0 [0x013AC226+1032742]&#10;&#9;Ordinal0 [0x013AC09F+1032351]&#10;&#9;Ordinal0 [0x013B6A4B+1075787]&#10;&#9;Ordinal0 [0x013B6BB3+1076147]&#10;&#9;Ordinal0 [0x013B5B65+1071973]&#10;&#9;BaseThreadInitThunk [0x760F343D+18]&#10;&#9;RtlInitializeExceptionChain [0x778A9802+99]&#10;&#9;RtlInitializeExceptionChain [0x778A97D5+54]&#10;&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#13;&#10;&#9;at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)&#13;&#10;&#9;at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;&#10;&#9;at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.findFirst(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;&#10;&#9;at stepDefinition.StepDefinition.user_on_Forgot_my_password_page(StepDefinition.java:103)&#13;&#10;&#9;at ✽.When user on Forgot my password page(C:/Users/cmehta/eclipse-workspace/freeCRMFramework/src/main/java/features/login.feature:18)&#13;&#10;"><![CDATA[When user on Forgot my password page........................................failed
+Then user verify the Forgot my password title...............................skipped
+Then user sees email address input field....................................skipped
+And user enter email address................................................skipped
+Then user clicks on Reset password button...................................skipped
+And user sees the forgot password confirmation message......................skipped
+Then user close the browser.................................................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'LIN55000210', ip: '172.20.10.5', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x01417C53+1473619]
+	Ordinal0 [0x0139AD71+961905]
+	Ordinal0 [0x013242B3+475827]
+	Ordinal0 [0x012BF365+62309]
+	Ordinal0 [0x012BBC77+48247]
+	Ordinal0 [0x012D9149+168265]
+	Ordinal0 [0x012D8D1D+167197]
+	Ordinal0 [0x012D742B+160811]
+	Ordinal0 [0x012C0AE6+68326]
+	Ordinal0 [0x012C1BF0+72688]
+	Ordinal0 [0x012C1B89+72585]
+	Ordinal0 [0x013B4B37+1067831]
+	GetHandleVerifier [0x014B6845+506677]
+	GetHandleVerifier [0x014B65E0+506064]
+	GetHandleVerifier [0x014BD188+533624]
+	GetHandleVerifier [0x014B701A+508682]
+	Ordinal0 [0x013AC226+1032742]
+	Ordinal0 [0x013AC09F+1032351]
+	Ordinal0 [0x013B6A4B+1075787]
+	Ordinal0 [0x013B6BB3+1076147]
+	Ordinal0 [0x013B5B65+1071973]
+	BaseThreadInitThunk [0x760F343D+18]
+	RtlInitializeExceptionChain [0x778A9802+99]
+	RtlInitializeExceptionChain [0x778A97D5+54]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at stepDefinition.StepDefinition.user_on_Forgot_my_password_page(StepDefinition.java:103)
+	at ✽.When user on Forgot my password page(C:/Users/cmehta/eclipse-workspace/freeCRMFramework/src/main/java/features/login.feature:18)
+]]></failure>
+</testcase>
+<testcase classname="FreeCRM test application" name="FreeCRM login test scenario" time="2.03486">
+<failure message="org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76&#10;Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'&#10;System info: host: 'LIN55000210', ip: '172.20.10.5', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x01417C53+1473619]&#10;&#9;Ordinal0 [0x0139AD71+961905]&#10;&#9;Ordinal0 [0x013242B3+475827]&#10;&#9;Ordinal0 [0x012BF365+62309]&#10;&#9;Ordinal0 [0x012BBC77+48247]&#10;&#9;Ordinal0 [0x012D9149+168265]&#10;&#9;Ordinal0 [0x012D8D1D+167197]&#10;&#9;Ordinal0 [0x012D742B+160811]&#10;&#9;Ordinal0 [0x012C0AE6+68326]&#10;&#9;Ordinal0 [0x012C1BF0+72688]&#10;&#9;Ordinal0 [0x012C1B89+72585]&#10;&#9;Ordinal0 [0x013B4B37+1067831]&#10;&#9;GetHandleVerifier [0x014B6845+506677]&#10;&#9;GetHandleVerifier [0x014B65E0+506064]&#10;&#9;GetHandleVerifier [0x014BD188+533624]&#10;&#9;GetHandleVerifier [0x014B701A+508682]&#10;&#9;Ordinal0 [0x013AC226+1032742]&#10;&#9;Ordinal0 [0x013AC09F+1032351]&#10;&#9;Ordinal0 [0x013B6A4B+1075787]&#10;&#9;Ordinal0 [0x013B6BB3+1076147]&#10;&#9;Ordinal0 [0x013B5B65+1071973]&#10;&#9;BaseThreadInitThunk [0x760F343D+18]&#10;&#9;RtlInitializeExceptionChain [0x778A9802+99]&#10;&#9;RtlInitializeExceptionChain [0x778A97D5+54]&#10;&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#13;&#10;&#9;at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)&#13;&#10;&#9;at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;&#10;&#9;at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.findFirst(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;&#10;&#9;at stepDefinition.StepDefinition.user_on_FreeCRM_login_page(StepDefinition.java:20)&#13;&#10;&#9;at ✽.When user on FreeCRM login page(C:/Users/cmehta/eclipse-workspace/freeCRMFramework/src/main/java/features/login.feature:29)&#13;&#10;"><![CDATA[When user on FreeCRM login page.............................................failed
+Then user verify the FreeCRM title..........................................skipped
+And user enter username and password........................................skipped
+And user clicks on login button.............................................skipped
+And user verify the FreeCRM title again.....................................skipped
+Then user close the browser.................................................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'LIN55000210', ip: '172.20.10.5', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x01417C53+1473619]
+	Ordinal0 [0x0139AD71+961905]
+	Ordinal0 [0x013242B3+475827]
+	Ordinal0 [0x012BF365+62309]
+	Ordinal0 [0x012BBC77+48247]
+	Ordinal0 [0x012D9149+168265]
+	Ordinal0 [0x012D8D1D+167197]
+	Ordinal0 [0x012D742B+160811]
+	Ordinal0 [0x012C0AE6+68326]
+	Ordinal0 [0x012C1BF0+72688]
+	Ordinal0 [0x012C1B89+72585]
+	Ordinal0 [0x013B4B37+1067831]
+	GetHandleVerifier [0x014B6845+506677]
+	GetHandleVerifier [0x014B65E0+506064]
+	GetHandleVerifier [0x014BD188+533624]
+	GetHandleVerifier [0x014B701A+508682]
+	Ordinal0 [0x013AC226+1032742]
+	Ordinal0 [0x013AC09F+1032351]
+	Ordinal0 [0x013B6A4B+1075787]
+	Ordinal0 [0x013B6BB3+1076147]
+	Ordinal0 [0x013B5B65+1071973]
+	BaseThreadInitThunk [0x760F343D+18]
+	RtlInitializeExceptionChain [0x778A9802+99]
+	RtlInitializeExceptionChain [0x778A97D5+54]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at stepDefinition.StepDefinition.user_on_FreeCRM_login_page(StepDefinition.java:20)
+	at ✽.When user on FreeCRM login page(C:/Users/cmehta/eclipse-workspace/freeCRMFramework/src/main/java/features/login.feature:29)
+]]></failure>
+</testcase>
+</testsuite>

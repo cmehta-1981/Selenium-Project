@@ -1,0 +1,16 @@
+package CollectionConcepts;
+
+import java.util.Hashtable;
+
+public class HashTableConcepts {
+
+	public static void main(String[] args) {
+		
+		Hashtable ht = new Hashtable();
+		 ht.put(1, "Java");
+		 ht.put("Selenium", "is great");
+		 ht.put("key", "value");
+
+	}
+
+}

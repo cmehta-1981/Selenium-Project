@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "validate InvestmentSafeGaurd Home Page title  Test",
+        "description": "",
+        "id": "investmentsafegaurd-homepage-test;validate-investmentsafegaurd-home-page-title--test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8200564315,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user opens InvestmentSafeGaurd browser",
+            "match": {
+              "location": "StepDefinition.user_opens_InvestmentSafeGaurd_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5057085242,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user validate InvestmentSafeGaurd home page title",
+            "match": {
+              "location": "StepDefinition.user_validate_InvestmentSafeGaurd_home_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 871265139,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user close the browser",
+            "match": {
+              "location": "StepDefinition.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SanityTest"
+          }
+        ]
+      }
+    ],
+    "name": "InvestmentSafeGaurd HomePage test",
+    "description": "",
+    "id": "investmentsafegaurd-homepage-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/cmehta/eclipse-workspace/safeGaurdProject/src/main/java/com/qa/features/homePage.feature"
+  }
+]

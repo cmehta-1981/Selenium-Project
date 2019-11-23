@@ -1,0 +1,55 @@
+package com.CRM.qa.testCases;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.CRM.qa.base.TestBase;
+import com.CRM.qa.pages.HomePage;
+import com.CRM.qa.pages.LandingPage;
+import com.CRM.qa.pages.LoginPage;
+
+public class HomePageTest extends TestBase {
+	LandingPage landingPage;
+	LoginPage loginPage;
+	HomePage homePage;
+
+	public HomePageTest() throws Exception {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+	@BeforeMethod
+	public void setUp() throws Exception {
+		
+		initialization();
+		loginPage = new LoginPage();
+		landingPage = new LandingPage();
+		loginPage = landingPage.login();
+		homePage = loginPage.validateLogin(prop.getProperty("username"), prop.getProperty("password"));
+		
+	}
+	
+	
+	@Test
+	public void verifyUserNameLabelTest() {
+		Assert.assertTrue(homePage.verifyUserLabel());
+	}
+	
+	@Test
+	public void verifyDealsSummaryTextTest() {
+		String dealsText = homePage.verifyDealsSummaryText();
+		Assert.assertEquals(dealsText, "Deals Summary");
+
+	}
+	
+	@AfterMethod
+	public void tearDown() {
+		
+		driver.quit();
+	}
+
+}

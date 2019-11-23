@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="0">
+<testcase classname="Free CRM FogotPasswordPage test" name="validate Free CRM ForgotPassword Page test" time="0">
+<system-out><![CDATA[Given user opens browser....................................................skipped
+Then user is on login page..................................................skipped
+Then user cliks on Forgot your password? link...............................skipped
+And user reset password.....................................................skipped
+Then user sees the reset password success message...........................skipped
+Then user close the browser.................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM FogotPasswordPage test" name="validate Free CRM ForgotPassword Page test" time="0">
+<system-out><![CDATA[Given user on calendar page.................................................skipped
+Then user veeify the create event page......................................skipped
+Then user fill the event form...............................................skipped
+Then user save the event form...............................................skipped
+Then user close the browser.................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM FogotPasswordPage test" name="validate Free CRM ForgotPassword Page test" time="0">
+<system-out><![CDATA[Given user opens browser....................................................skipped
+Then user is on login page..................................................skipped
+Then user cliks on Classic CRM link.........................................skipped
+Then user navigates to Classic CRM page.....................................skipped
+Then user close the browser.................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM FogotPasswordPage test" name="validate Free CRM ForgotPassword Page test" time="0">
+<system-out><![CDATA[Given user opens browser....................................................skipped
+Then user is on login page..................................................skipped
+Then user sees username label...............................................skipped
+And user verify Contacts activity stream list...............................skipped
+And user sees Home link.....................................................skipped
+And user sees Calendar link.................................................skipped
+And user sees Contacts link.................................................skipped
+And user sees Companies link................................................skipped
+And user sees Deals link....................................................skipped
+And user sees Tasks link....................................................skipped
+And user sees Cases link....................................................skipped
+And user sees Calls link....................................................skipped
+And user sees Documents link................................................skipped
+And user sees Email link....................................................skipped
+And user sees Campaigns link................................................skipped
+Then user close the browser.................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM LoginPage test" name="validate Free CRM Home Page test" time="0">
+<system-out><![CDATA[Given user opens browser....................................................skipped
+Then user is on login page..................................................skipped
+Then user login into application............................................skipped
+Then user validate homepage title...........................................skipped
+Then user close the browser.................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM LoginPage test" name="validate Free CRM links on Home Page" time="0">
+<system-out><![CDATA[Given user on login page....................................................skipped
+Then user sees Forgot your password? link...................................skipped
+And user sees Classic CRM link..............................................skipped
+And user sees Sign Up link..................................................skipped
+Then user close the browser.................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM FogotPasswordPage test" name="validate Free CRM ForgotPassword Page test" time="0">
+<system-out><![CDATA[Given user opens browser....................................................skipped
+Then user is on login page..................................................skipped
+Then user sees SignUp title.................................................skipped
+And user SignUp Free CRM application........................................skipped
+Then user sees the SignUp success message...................................skipped
+Then user close the browser.................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM FogotPasswordPage test" name="validate Free CRM ForgotPassword Page test" time="0">
+<system-out><![CDATA[Given user opens browser....................................................skipped
+Then user is on login page..................................................skipped
+Then user sees SignUp title.................................................skipped
+And user SignUp Free CRM application........................................skipped
+Then user sees the SignUp success message...................................skipped
+Then user close the browser.................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,21 @@
+package CollectionConcepts;
+
+import java.util.Hashtable;
+import java.util.Map;
+
+public class HashTableConcepts {
+
+	public static void main(String[] args) {
+		
+		Hashtable<String , String> ht = new Hashtable<String,String>();
+		 ht.put("1", "Java");
+		 ht.put("Selenium", "is great");
+		 ht.put("key", "value");
+		 
+		 System.out.println(ht.get("key"));
+		 
+		 for(Map.Entry m:ht.entrySet()){  
+			   System.out.println(m.getKey()+" "+m.getValue());  
+			  }
+	}
+}

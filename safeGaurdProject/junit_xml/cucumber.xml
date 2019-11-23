@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.128915">
+<testcase classname="InvestmentSafeGaurd HomePage test" name="validate InvestmentSafeGaurd Home Page title  Test" time="14.128915">
+<system-out><![CDATA[Given user opens InvestmentSafeGaurd browser................................passed
+Then user validate InvestmentSafeGaurd home page title......................passed
+Then user close the browser.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
